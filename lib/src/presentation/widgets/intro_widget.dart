@@ -72,7 +72,7 @@ class IntroWidget extends ConsumerWidget {
                                       onTap: () =>
                                           AutoRouter.of(context).maybePop(),
                                       child: const CircleAvatar(
-                                        backgroundColor: AppColors.appGrey,
+                                        backgroundColor: AppColors.appText,
                                         radius: 10,
                                         child: Icon(
                                           Icons.close,
@@ -135,7 +135,7 @@ class IntroWidget extends ConsumerWidget {
                 },
                 backgroundColor: AppColors.appBackground,
                 textColor: AppColors.primaryColor,
-                borderColor: AppColors.appGrey,
+                borderColor: AppColors.appText,
               )
             ],
           ),

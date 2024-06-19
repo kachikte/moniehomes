@@ -8,8 +8,8 @@ class AppRouter extends _$AppRouter {
 
   @override
   List<AutoRoute> get routes => [
-    AutoRoute(page: HomeRoute.page, path: '/home',),
-    AutoRoute(page: LocationRoute.page, path: '/intro', initial: true),
+    AutoRoute(page: HomeRoute.page, path: '/home', initial: true,),
+    AutoRoute(page: LocationRoute.page, path: '/location',),
   ];
 }
 

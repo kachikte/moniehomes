@@ -47,7 +47,8 @@ class AppTextButton extends StatelessWidget {
               ],
             Text(
               buttonText,
-              style: TextStyle(color: textColor, fontWeight: FontWeight.w700),
+              style: Theme.of(context).textTheme.bodySmall,
+              // style: TextStyle(color: textColor, fontWeight: FontWeight.w700),
             ),
           ],
         ),

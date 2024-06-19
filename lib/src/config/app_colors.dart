@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  static const appBackground = Color(0xFFFDFEFF);
-  static const lightPageView = Color(0xFFB3C1CE);
+  static const appBackground = Color(0xFFFFEFC0);
+  static const appText = Color(0xFFA5957E);
   static const primaryColor = Color(0xFFFFA833);
-  static const introTextColor = Color(0xFF4F7471);
-  static const appGrey = Color(0xFFD2D5DA);
+  static const appBlack = Color(0xFF232220);
+  static const lightPrimary = Color(0xFFC2BAAF);
+  static const appButton = Color(0xFFFDFAEF);
+  static const appWhite = Colors.white;
 }

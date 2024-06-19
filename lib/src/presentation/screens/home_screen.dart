@@ -20,7 +20,7 @@ class HomeScreen extends ConsumerWidget {
           children: [
             Container(
               margin: EdgeInsets.symmetric(
-                  vertical: screenSize.height * .04,
+                  vertical: screenSize.height * .02,
                   horizontal: screenSize.width * .05),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -62,7 +62,7 @@ class HomeScreen extends ConsumerWidget {
                     ],
                   ),
                   const SizedBox(
-                    height: 30,
+                    height: 20,
                   ),
                   Text(
                     'Hi, Marina',
@@ -96,9 +96,10 @@ class HomeScreen extends ConsumerWidget {
                             color: AppColors.primaryColor,
                               borderRadius:
                                   BorderRadius.all(Radius.circular(30))),
-                          child: ClipOval(
+                          child: ClipRRect(
+                            borderRadius: const BorderRadius.all(Radius.circular(30)),
                             child: Image.asset(
-                              AppImages.monieHomesWoodenInteriorLogoJpg,
+                              AppImages.monieHomesWoodenInteriorJpg,
                               fit: BoxFit.cover,
                             ),
                           ),

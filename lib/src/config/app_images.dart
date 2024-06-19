@@ -1,6 +1,9 @@
 class AppImages {
   //jpgs
-  static const monieHomesWoodenInteriorLogoJpg = "assets/images/jpgs/moniehomes_wooden_interior.jpg";
+  static const monieHomesWoodenInteriorJpg = "assets/images/jpgs/moniehomes_wooden_interior.jpg";
+  static const monieHomesInteriorOneJpg = "assets/images/jpgs/moniehomes_interior_one.jpg";
+  static const monieHomesInteriorTwoJpg = "assets/images/jpgs/moniehomes_interior_two.jpg";
+  static const monieHomesInteriorThreeJpg = "assets/images/jpgs/moniehomes_interior_three.jpg";
 
   //pngs
   static const monieHomesLogoPng = "assets/images/pngs/moniehomes_logo.png";
